@@ -1,0 +1,124 @@
+
+div#grid_container {
+  height: 200px;
+  width: 200px;
+  position: relative;
+  margin: 0 auto; 
+  margin-top: 10%;
+  vertical-align: middle;
+}
+
+div.box {
+  height: 50px;
+  width: 50px;
+  background: -webkit-linear-gradient(#1c5380, #06365f);
+  border: 2px;
+  border-color: #FF19FF;
+  border-style: solid;
+  position: relative;
+  display: inline-block;
+  font-family: 'Bangers', cursive;
+  font-weight: bold;
+  font-size: 10px;
+  color: red;
+  text-align: center;
+  vertical-align: middle;
+}
+
+div.box-X {
+  height: 50px;
+  width: 50px;
+  background-color: #FF19FF;
+  border: 2px;
+  border-color: #FF19FF;
+  border-style: solid;
+  position: relative;
+  display: inline-block;
+  font-family: 'Bangers', cursive;
+  font-weight: bold;
+  font-size: 10px;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+}
+
+div.box-O {
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  border: 2px;
+  border-color: #FF19FF;
+  border-style: solid;
+  position: relative;
+  font-family: 'Bangers', cursive;  display: inline-block;
+  font-weight: bold;
+  font-size: 10px;
+  color: #FF19FF;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#reset {
+    display: inline-block;
+    background: -webkit-linear-gradient(#1c5380, #06365f);
+    padding: 10px 14px;
+    border-radius: 3px;
+    top: 20%;
+    position: relative;
+    left: auto;
+    color: white;
+    outline:none; 
+    border:none; 
+}
+
+video#bgvid {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+#header {
+  height: 50px;
+  width: 200px;
+  right: -5%;
+  top: 100px;
+  font-family: 'Bangers', cursive;
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+  position: relative;
+  margin-right: 20%;
+  margin-top: -10%;
+  z-index: -1;
+  transform: rotate(10deg);
+  -webkit-transform: rotate(10deg);
+  -moz-transform: rotate(10deg);
+}
+
+#header2 {
+  height: 50px;
+  width: 200px;
+  right: -65%;
+  top: 150px;
+  font-family: 'Bangers', cursive;
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+  position: relative;
+  margin-right: 20%;
+  margin-top: -10%;
+  z-index: -1;
+  transform: rotate(-20deg);
+  -webkit-transform: rotate(-20deg);
+  -moz-transform: rotate(-20deg);
+}
